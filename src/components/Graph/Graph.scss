@@ -1,0 +1,41 @@
+.graph {
+    text-align: center;
+    &__fullBar {
+        display: inline-block;
+        width: 120px;
+        height: calc(100vh - 250px);
+        position: relative;
+        background-color: #f2f2f2;
+    }
+    &__percentageBar {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        background-color: #333;
+    }
+    &__percentageValue {
+        position: absolute;
+        width: 100%;
+        font-size: 34px;
+        font-weight: bold;
+    }
+    &__name {
+        font-weight: normal;
+    }
+}
+
+@media (max-width: 800px) { 
+    .graph {
+        width: 33%;
+        &__fullBar {
+            width: 95%;
+        }
+    }
+}
+
+@media (max-width: 420px) { 
+    .graph {
+        width: 50%;
+       
+    }
+}

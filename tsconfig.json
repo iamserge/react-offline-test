@@ -5,6 +5,7 @@
     "sourceMap": true,
     "jsx": "react",
     "experimentalDecorators": true,
+    "resolveJsonModule" : true,
     "lib": [
       "dom",
       "es2017"

@@ -1,67 +1,25 @@
-# React Offline Test
+# React Offline Test from Serge 
 
-## TLDR
+Please find complete task as requested - no unicorn's rainbow puke this time, kept it simple. Requested answers to the questions below
 
-* This README describes the test - read it
-* **Everything** you need to know is in this readme
-* Definitely read the 'What are you looking for in the solution?' bit
 
-## What is this?
+# Have you worked in an Agile environment before? If so, what do you consider the most important facet of the Agile approach?
 
-We ask our JavaScript candidates to take this test as part of our recruitment process. This is step one. If we like your submission we will invite you in for (probably one) technical interview where we will have a chat and ask you to do some pair programming. 
+I have worked in an Agile environment for the last 4-5 years, with various teams and on different projects. Also, held the role of the Scrum Master for some time ( while being a developer ). 
 
-### What should it do?
+In my opinion, the main point about agile is communication and ownership. Team members take responsibility, both individually and as a team, for a piece of work they commit to, and communicate thoroughly between each other and other stakeholders in order to complete the task. 
 
-Your task is to write a React application that displays the current mix of energy generation in the UK (i.e. how much nuclear, wind, solar etc.).
+But a lot of times focus goes on a process itself, endless meetings and Scrum for the sake of Scrum, which results in a false perception of the progress.
 
-We have provided an empty React app to get you started - it is pre-configured with Babel and Webpack to get you up and running with no fuss. Details of an API that you can call to load the data that you should display are provided below. 
+# Have you worked in a pair programming environment before? If so, what are the pros and cons of pair programming?
 
-### How should it work?
+Being completely honest, I haven't, not at least in an official commercial format. But during my career, there have been times when forces had to be joined in order to finish a task, and probably that was a pair programming. 
 
-Definitely using React! 
+As for pros, obviously easier to find a solution when you have two pairs of eyes on a code, but I also think that there is an element of competitiveness that exists when two developers are working at the same time on the same problem, which increases productivity.
 
-How you decide to load and show the data is entirely up to you. 
-You are free to use any libraries that you want (via `npm`) and you can choose how you wish to display the data. Some suggestions are:
+Cons wise, sometimes there can be multiple correct solutions to one problem, and clash can happen, but I would imagine, it rarely would get into conflict state, so hard a disadvantage.
 
-* Huge numbers
-* Tiled icons and numbers
-* A chart of some kind
-* Relative sized colour bands in a giant unicorn's rainbow puke
 
-## Getting started
+# What feedback can you give us about the coding exercise?
 
-* If you haven't already, fork our GitHub project
-* Get the dependencies - `npm install`
-* Run the app - `npm start` - it will be available at http://localhost:8080
-* Write your code, starting with `app.jsx`
-
-### Where can I find the UK energy generation data?
-
-Here: https://api.carbonintensity.org.uk/generation
-
-An example response is in `example_api_response.json`, where you can see that the data includes the relative percentage values of a variety of fuels
-for 1 settlement period (half hour block). A live call to the API will give you the data for the latest complete settlement period. This is absolutely fine for the purposes of this test - *you do not need to worry about any larger time periods*.
-
-An existing website that shows this data is here: https://gridwatch.co.uk/
-
-### What are you looking for in the solution?
-
-* A **simple**, **readable**, **well-factored** solution - not the fanciest charting library or middleware components you can find
-* **Automated tests**
-* Some form of visual styling - we don't care what technology you use for this but an un-styled `ul` is not going to cut it
-
-### Anything else I should know?
-
-* You can use any ES7 features (or earlier)
-* You can use TypeScript if you prefer (the project is already configured for this)
-* You can use any libraries that you want
-* `npm start` will start a Webpack hot-reload dev server so you can make live changes
-* We really like TDD
-* We like TypeScript too
-* We like simplicity - a more complicated solution is rarely better than a simple one
-* Some types of chart seem like a really obvious fit but are not actually very good at showing small values in a data set 
-
-## Finishing
-
-* If you have made any changes that require us to do more than just an `npm install` and `npm start` to run your solution then please make this clear in the readme
-* Let your agent know that you're done and we will take a look at your fork in GitHub (no pull requests please)
+Only small thing would be to have it pre-configured for SASS, but that is more of a personal preference. Other than that - was a pleasure to work on it.

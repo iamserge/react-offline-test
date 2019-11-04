@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    padding: 30px 0 60px;
+    &__title {
+        margin-bottom: 10px;
+    }
+    &__subTitle {
+        margin: 0;
+        font-size:16px;
+        font-weight: normal;
+        &__time {
+            font-weight: bold;
+        }
+    }
+}
+
